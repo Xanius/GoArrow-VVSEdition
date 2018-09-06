@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<portalDevices>
+  <device icon="06003642" name="Black Spawn Den Portal Device">
+    <destination NS="13.72" EW="-79.84" name="BSD Device to Northern Dires" />
+    <destination NS="-59.97" EW="-57.72" name="BSD Device to Obsidian Plain" />
+    <destination NS="-56.7" EW="-86.0" name="BSD Device to Western Dires" />
+    <description>
+      Black Spawn Den Portal Device
+
+      Goes to one of the three Black Spawn Dens:
+      Northern Dires BSD (13.7N, 79.8W)
+      Obsidian Plain BSD (60.0S, 57.7W)
+      Western Dires BSD (56.7S, 86.0W)
+    </description>
+  </device>
+  <device icon="0600363F" name="Citadels Portal Device">
+    <destination NS="-70.17" EW="24.30" name="Citadels Device to Ridge Citadel" />
+    <destination NS="-56.69" EW="66.87" name="Citadels Device to Hills Citadel" />
+    <destination NS="-68.03" EW="62.48" name="Citadels Device to Wilderness Citadel" />
+    <description>
+      Citadels Portal Device
+
+      Goes to one of three citadels:
+      Ridge Citadel (70.1S, 24.3E)
+      Hills Citadel (56.7S, 66.9E)
+      Wilderness Citadel (68.0S, 62.5E)
+    </description>
+  </device>
+  <device icon="0600363E" name="Dangerous Portal Device">
+    <destination NS="-14.05" EW="93.00" name="Dangerous Device to Aphus Lassel" />
+    <destination NS="-43.29" EW="-69.27" name="Dangerous Device to Valley of Death" />
+    <destination NS="-63.56" EW="-63.71" name="Dangerous Device to Obsidian Plain" />
+    <description>
+      Dangerous Portal Device
+
+      Goes to one of three locations:
+      Obsidian Plains (14.1S, 93.0E)
+      Valley of Death (43.3S, 69.3W)
+      Western Aphus Lassel (63.6S, 63.7W)
+    </description>
+  </device>
+  <device icon="06005A64" name="K'nath Lair Portal">
+    <destination NS="-49.71" EW="-56.27" name="K'nath Lair Portal Device" />
+    <description>
+      K'nath Lair Portal
+      
+      A small portal lives inside the body of this hibernating K'nath. When used, the portal will send the caster to a K'nath lair.
+      
+      Exits at 49.7S, 56.3W
+    </description>
+  </device>
+  <device icon="06003640" name="Lesser Direlands Device">
+    <destination NS="15.24" EW="-50.69" name="Lesser Device to North Land Bridge" />
+    <destination NS="-85.07" EW="-7.28" name="Lesser Device to South Land Bridge" />
+    <destination NS="-28.60" EW="-65.62" name="Lesser Device to Renegade Fortress" />
+    <description>
+      Lesser Dierlands Device
+
+      Goes to one of three locations:
+      Northern Landbridge (15.2N, 50.7W)
+      Southern Landbridge (85.1S, 7.3W)
+      Renegade Fortress (28.6S, 65.6W)
+    </description>
+  </device>
+  <device icon="06003641" name="Olthoi Lands Portal Device">
+    <destination NS="49.68" EW="72.32" name="Olthoi Device to Olthoi North" />
+    <destination NS="64.33" EW="52.97" name="Olthoi Device to Olthoi Horde Nest" />
+    <destination NS="60.03" EW="71.09" name="Olthoi Device to Black Death Catacombs" />
+    <description>
+      Olthoi Lands Portal Device
+
+      Goes to one of three locations:
+      Olthoi North (49.7N, 72.3E)
+      Olthoi Horde Next (64.3N, 53.0E)
+      Black Death Catacombs (60.0N, 71.1E)
+    </description>
+  </device>
+  <device icon="06003643" name="Outland Portal Device">
+    <destination NS="69.55" EW="17.86" name="Outland Device to Neydisa Castle" />
+    <destination NS="42.04" EW="-77.81" name="Outland Device to Marescent Plateau" />
+    <destination NS="-78.63" EW="56.33" name="Outland Device to Kara Wetlands" />
+    <description>
+      Outland Portal Device
+
+      Goes to one of three locations:
+      Neydisa Castle (69.6N, 17.7E)
+      Marescent Plateau (42.0N, 77.9W)
+      Kara Wetlands (78.6S, 56.3E)
+    </description>
+  </device>
+  <device icon="060030C3" name="Portal to Izji Qo's Temple">
+    <destination NS="-12.33" EW="-59.03" name="Portal to Izji Qo's Temple" />
+    <description>
+      Portal to Izji Qo's Temple
+
+      Exits at 12.3S, 59.0W
+    </description>
+  </device>
+  <device icon="060030C3" name="Portal to Kivik Lir's Temple">
+    <destination NS="-37.58" EW="-46.58" name="Portal to Kivik Lir's Temple" />
+    <description>
+      Portal to Kivik Lir's Temple
+
+      Exits at 37.5S, 46.6W
+    </description>
+  </device>
+  <device icon="06003703" name="Replica of a Tursh Totem">
+    <destination NS="77.18" EW="32.59" name="Tursh Totem to Defiled Temple" />
+    <description>
+      Replica of a Tursh Totem
+      
+      The Tursh Totem was discovered by Queen Elysa's Royal Guards when exploring the icy regions of Northern Osteth. For many years, the Queen and her allies had no insight into the totem's function or significance. However, after searching through a series of ancient Empyrean texts, Altar Locke discovered that Tursh was some sort of being worshipped as a god by a group of cannibalistic savages that once lived in the snow-covered peaks of Dereth. Tursh was purported to be the god of Hunger, though no other reference to Tursh's specific powers or exploits were uncovered in Alatar's research. This replica was forged from a shard of the massive Tursh Totem, and contains a small portion of the totem's fearsome power.
+      
+      Exits at 77.2N, 32.6E
+    </description>
+  </device>
+</portalDevices>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mapRegions>
+  <innerPoly name="Marescent Plateau">
+    <coords NS="54.2" EW="-78.3" />
+    <coords NS="49.2" EW="-83.1" />
+    <coords NS="42.8" EW="-82.8" />
+    <coords NS="42.1" EW="-78.6" />
+    <coords NS="42.1" EW="-74.3" />
+    <coords NS="44.3" EW="-74.5" />
+    <coords NS="44.6" EW="-73.5" />
+    <coords NS="43.2" EW="-73.0" />
+    <coords NS="48.3" EW="-69.6" />
+    <coords NS="48.8" EW="-73.2" />
+    <coords NS="50.5" EW="-71.5" />
+    <coords NS="53.9" EW="-72.6" />
+  </innerPoly>
+  
+  <poly name="Halaetan Islands Main">
+    <coords NS="100.1" EW="-66.6" />
+    <coords NS="78.9" EW="-85.9" />
+    <coords NS="62.6" EW="-62.8" />
+    <coords NS="75.2" EW="-55.2" />
+    <coords NS="82.0" EW="-62.4" />
+  </poly>
+  <poly name="Halaetan Islands Second">
+    <coords NS="100.6" EW="-62.4" />
+    <coords NS="85.3" EW="-64.0" />
+    <coords NS="75.5" EW="-54.8" />
+    <coords NS="97.4" EW="-32.3" />
+  </poly>
+  <poly name="Vissidal Island">
+    <coords NS="81.5" EW="57.0" />
+    <coords NS="81.5" EW="71.5" />
+    <coords NS="71.0" EW="71.5" />
+    <coords NS="79.0" EW="57.0" />
+  </poly>
+  <poly name="Asheron's Island">
+    <coords NS="23" EW="65" />
+    <coords NS="25" EW="70" />
+    <coords NS="17" EW="77" />
+    <coords NS="13" EW="71" />
+  </poly>
+  <poly name="Aphus Lassel">
+    <coords NS="10.6" EW="98.8" />
+    <coords NS="-0.3" EW="80.7" />
+    <coords NS="-22.8" EW="85.2" />
+    <coords NS="-10.2" EW="101.5" />
+  </poly>
+  <poly name="Vesayen Isles">
+    <coords NS="-74.3" EW="75.7" />
+    <coords NS="-95.7" EW="100.0" />
+    <coords NS="-61.2" EW="100.0" />
+  </poly>
+  
+  <rect name="Dark Isle">
+    <coords NS="97.5" EW="51.8" />
+    <coords NS="83.5" EW="61.3" />
+  </rect>
+  <rect name="Aerlinthe Island">
+    <coords NS="83.5" EW="41.0" />
+    <coords NS="93.8" EW="51.6" />
+  </rect>
+  <rect name="Vesayen Secret Island">
+    <coords NS="-93.4" EW="84.2" />
+    <coords NS="-85.2" EW="92.3" />
+  </rect>
+  <rect name="Ulgrim's Island">
+    <coords NS="-96.2" EW="-13.3" />
+    <coords NS="-92.6" EW="-8.3" />
+  </rect>
+  <rect name="Vault of Eternal Slumber">
+    <coords NS="80.5" EW="53.8" />
+    <coords NS="79.5" EW="55.0" />
+  </rect>
+  <rect name="Singularity Caul">
+    <coords NS="-101.9" EW="-102.0" />
+    <coords NS="-86.6" EW="-86.3" />
+  </rect>
+  <rect name="Marae Lassel">
+    <coords NS="34.9" EW="-93.6" />
+    <coords NS="61.2" EW="-62.5" />
+  </rect>
+</mapRegions>

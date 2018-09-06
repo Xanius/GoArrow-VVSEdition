@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GoArrow.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DungeonBaseURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://167.99.151.205/maps/</Value>
+    </Setting>
+    <Setting Name="DungeonListURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://167.99.151.205/maps/dungeon_ids.csv</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

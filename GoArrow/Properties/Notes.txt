@@ -1,0 +1,128 @@
+To-do:
+	- Map control toolbars
+	- Arrow context menu
+	
+Changes:
+2.5.0.0
+	-Changed DungeonListURL to http://ac.lastalias.com/maps/dungeon_ids.csv
+	-Changed MapBaseURL to http://ac.lastalias.com/Maps/
+	-Changed the CrossroadsOfDerethURL (Locations Update URL) to http://maps.roogon.com/downloads/GAlocations.xml
+	-Fixed the issue where the Description for the selected destination would not display
+	-Fixed the issue where the Description text would not line wrap correctly
+	-Fixed the issue where the text on the Details | Delete tab would not display correctly
+	-Fixed the issue where the text for removing items on the Favorites & Recent tabs would not display correctly
+	-Changed the color of the text for removing items on the Favorites & Recent tabs to red
+	-Fixed the issue where the warning text on the Update tab would not display correctly
+	-Fixed the format of the Matches found text on the Search tab to display correctly (X - matches found)
+	-Fixed the display layout of the Nearby search on the Atlas | Search tab
+
+
+1.2.0.2
+	- Refactored File Locations.
+	- Switched to SVN on GoogleCode instead of VSS.
+	
+	- The update URL now saves.
+	- Dungeon HUD eats mouse clicks.
+	- Workaround for bug in Decal where DefaultView.Activated could be 
+		incorrectly set to true when the plugin was initialized.
+	- Update house information after login complete if it's available.
+	- The map should now center on the player when it's first opened and 
+		"Center on player" is selected.
+	
+1.2.0.1
+	- Fixed a bug that occasionally caused a NullReferenceException.
+	- Fixed a bug where you occasionally had to click "Locate on map" twice 
+		(from the Details tab) to actually have the map center on a location.
+	- The arrow now properly saves the route or tagged person that it was 
+		pointing to.
+
+1.2.0.0
+	Atlas/Route Finding
+	- Route finding will no longer suggest routes that involve running through
+		the ocean to an island.  Unfortunatley, it can still suggest routes that 
+		involve running over impassable slopes or through deep lakes.
+	- The coordinates for start locations now save properly when set while 
+		dual-logging.
+	- Removed the "Relative to me" part when you copy a location's information 
+		from the details tab.
+	- Reset the "Auto update recalls" option to default to on, since almost 
+		everyone turned it off due to the bug from v1.1.0.1.
+	- Added portal gems to the list of start locations, but they are disabled 
+		by default. You can enable them on the Settings > Route Finding > 
+		Start Locations tab if you use portal gems.
+	- GoArrow will now automatically detect and use portal devices at your 
+		mansion. Configure it on the Settings > Route Finding > Portal Devices tab.
+	- If you haven't updated the locations database in over a month, GoArrow 
+		will remind you to update it when you log in.
+	
+	All HUDs
+	- Added a HUD Toolbar, similar to the Decal toolbar, that lets you easily 
+		turn on and off the Arrow, Dereth Map, and Dungeon Map.
+	- All HUDs (Arrow, Dereth Map, Dungeon Map) now share the same opacity 
+		settings.
+	- Added options for which mouse buttons control the Dereth and Dungeon maps.
+	- Reduced graphics memory usage.
+	
+	Arrow HUD
+	- The arrow now has an [X] box to close it with the mouse (only visible when
+		the mouse is over the arrow and the CTRL key is held down).
+	
+	Dereth Map
+	- Updated the map for Dark Isle.
+	- Added a right-click menu for the map.
+	- The arrow's destination is shown as an orange triangle on the map.
+	- Panning the map while running no longer makes the map keep jumping back 
+		to the player's location if "Center on player" is selected. The map 
+		will recenter on the player when the mouse button is released.
+	- The "Center on player" option recenters the map less frequently 
+		(improves AC's framerate when you're running with the map open).
+	- Fixed an error when mousing over a location that was on the edge of the map.
+	
+	Dungeon Map
+	- The map should no longer get "stuck" zoomed all the way out.
+		
+	Chat Commands/DHS
+	- The /goarrow dest command includes the name of the arrow's destination, 
+		if it has one.
+	- The /goarrow to, start, and end commands accept location names in addition 
+		to coordinates, but the name must be an exact match (e.g., 
+		"/goarrow to abandoned mines" will make the arrow point to Abandoned Mines)
+	- Added /goarrow search command to search the location database from the 
+		command line.
+	- Added /goarrow find command that finds an object on the landscape by name
+		(like BS/2's or ElTank's /find command).  You optionally make an alias
+		to this command (such as /find).
+	- Added a DHS hotkey to make the character face towards the arrow's destination.
+	- Added a DHS hotkey and chat command (/goarrow tag) to let you "attach" the 
+		arrow to a player, monster, or other object.  The arrow will continue 
+		to point to the target even if it moves.
+
+1.1.0.1
+	- Made lines closer together in location descriptions.
+
+1.1.0.0
+	- Fixed initial run distance for start locations
+	- Changed Favorites and Recent lists to work similarly to search and route 
+		lists in terms of click handling
+	- Added '/goarrow loc' command (same as '/loc' command was)
+	- Added '/goarrow dest' command
+	- Changed "Lock HUD position" to "Require Ctrl key to move HUD"
+	- Installer includes debug symbols, so stack traces will have line numbers
+	- Details tab loads last location's details on startup
+	- Find next-longer route
+	- Reorganized UI
+	- Added Dereth Map
+	- Added Dungeon Map
+	- Moved arrow images into .zip file
+	- Improved the Recent Coordinates list
+	- Automatically adds your corpse coords to the Recent Coordinates list when 
+		you die, and sets the arrow to point to your corpse.
+	- You can now use ACSpedia as a source for the locations database. Changing
+		database types will erase your favorite, customized, and recent 
+		locations.
+	- Relative coords are gold
+	- Paths in ArrowHud (click < and > to advance path)
+	- Can access dungeon maps from details tab
+
+1.0.0.0
+	- Initial Release

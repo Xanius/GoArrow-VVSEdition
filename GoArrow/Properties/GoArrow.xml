@@ -1,0 +1,493 @@
+<?xml version="1.0"?>
+<view icon="8064" title="GoArrow" width="272" height="338">
+		<control progid="DecalControls.Notebook" name="nbkMain">
+		<page label="HUDs">
+			<control progid="DecalControls.Notebook" name="nbkHuds">
+			<page label="Arrow">
+				<control progid="DecalControls.FixedLayout" clipped="">
+					<control progid="DecalControls.FixedLayout" clipped="" left="0" top="0" width="216" height="240">
+						<control progid="DecalControls.StaticText" name="Label2" left="4" top="112" width="72" height="16" text="Arrow image"/>
+						<control progid="DecalControls.Checkbox" name="chkShowArrow" left="4" top="8" width="80" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Show Arrow"/>
+						<control progid="DecalControls.Checkbox" name="chkArrowIndoors" left="92" top="8" width="124" height="16" text="Show arrow indoors"/>
+						<control progid="DecalControls.StaticText" name="Label1" left="4" top="24" width="40" height="16" text="Coords"/>
+						<control progid="DecalControls.Edit" name="edtArrowCoords" left="48" top="24" width="104" height="16" imageportalsrc="4410" textcolor="16777215" text=""/>
+						<control progid="DecalControls.PushButton" name="btnArrowHere" left="160" top="24" width="48" height="16" textcolor="16777215" text="Here"/>
+						<control progid="DecalControls.Checkbox" name="chkShowDestination" left="4" top="40" width="200" height="16" checked="true" text="Show destination over arrow"/>
+						<control progid="DecalControls.Checkbox" name="chkDistUnderArrow" left="4" top="56" width="200" height="16" checked="true" text="Show distance under arrow"/>
+						<control progid="DecalControls.Checkbox" name="chkLockArrowPosition" left="4" top="72" width="200" height="16" checked="true" text="Require Ctrl key to move arrow"/>
+						<control progid="DecalControls.PushButton" name="btnResetArrowPosition" left="56" top="196" width="104" height="16" textcolor="16777215" text="Reset Position"/>
+						<control progid="DecalControls.Choice" name="choArrowImage" left="72" top="112" width="136" height="19" selected="0">
+							<option text="Chrome" data="Chrome"/>
+						</control>
+						<control progid="DecalControls.Edit" name="edtTextSize" left="112" top="152" width="32" height="16" imageportalsrc="4410" textcolor="16777215" text="14"/>
+						<control progid="DecalControls.StaticText" name="Label3" left="112" top="136" width="48" height="16" text="Text size"/>
+						<control progid="DecalControls.StaticText" name="Label4" left="4" top="136" width="56" height="16" text="Text color"/>
+						<control progid="DecalControls.Choice" name="choTextColor" left="4" top="152" width="96" height="19" selected="0">
+
+            </control>
+						<control progid="DecalControls.Checkbox" name="chkBold" left="168" top="152" width="48" height="16" checked="true" text="Bold"/>
+						<control progid="DecalControls.PushButton" name="btnTextSizeDown" left="144" top="160" width="12" height="8" textcolor="16777215" fontface="Arial" fontsize="10" fontstyle="" text="-"/>
+						<control progid="DecalControls.PushButton" name="btnTextSizeUp" left="144" top="152" width="12" height="8" textcolor="16777215" fontface="Arial" fontsize="10" fontstyle="" text="+"/>
+						<control progid="DecalControls.Checkbox" name="chkTrackCorpses" left="4" top="88" width="168" height="16" checked="true" text="Automatically track corpses"/>
+					</control>
+
+				</control>
+
+			</page>
+			<page label="Dereth">
+				<control progid="DecalControls.FixedLayout" clipped="">
+					<control progid="DecalControls.FixedLayout" clipped="" left="0" top="0" width="216" height="240">
+						<control progid="DecalControls.Checkbox" name="chkDerethMapShow" left="4" top="8" width="152" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Show Dereth Map"/>
+						<control progid="DecalControls.Checkbox" name="chkDerethMapShowRoute" left="4" top="40" width="128" height="16" checked="true" text="Show route on map"/>
+						<control progid="DecalControls.Checkbox" name="chkDerethMapShowLocs" left="4" top="56" width="140" height="16" checked="true" text="Show locations on map"/>
+						<control progid="DecalControls.Checkbox" name="chkDerethMapCenterPlayer" left="4" top="24" width="128" height="16" checked="true" text="Center on player"/>
+						<control progid="DecalControls.Checkbox" name="chkDerethMapShowLabels" left="144" top="56" width="72" height="16" checked="true" text="with labels"/>
+						<control progid="DecalControls.FixedLayout" clipped="" left="4" top="68" width="208" height="24">
+							<control progid="DecalControls.StaticText" name="Label5" left="34" top="0" width="176" height="16" text="Show all location types at all"/>
+							<control progid="DecalControls.StaticText" name="Label52" left="34" top="9" width="172" height="16" text="zoom levels (not recommended)"/>
+							<control progid="DecalControls.Checkbox" name="chkDerethMapShowAllLocs" left="16" top="4" width="168" height="16" text=""/>
+						</control>
+
+						<control progid="DecalControls.StaticText" name="Label51" left="4" top="116" width="88" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Mouse Buttons"/>
+						<control progid="DecalControls.StaticText" name="Label53" left="100" top="116" width="20" height="16" justify="Center" text="L"/>
+						<control progid="DecalControls.StaticText" name="Label532" left="120" top="116" width="20" height="16" justify="Center" text="M"/>
+						<control progid="DecalControls.StaticText" name="Label58" left="140" top="116" width="20" height="16" justify="Center" text="R"/>
+						<control progid="DecalControls.StaticText" name="Label63" left="160" top="116" width="20" height="16" justify="Center" text="X1"/>
+						<control progid="DecalControls.StaticText" name="Label64" left="180" top="116" width="20" height="16" justify="Center" text="X2"/>
+						<control progid="DecalControls.List" name="lstDerethMapMouse" left="0" top="130" width="216" height="73" rowheight="18">
+							<column progid="DecalControls.TextColumn"/>
+							<column progid="DecalControls.CheckColumn"/>
+							<column progid="DecalControls.CheckColumn"/>
+							<column progid="DecalControls.CheckColumn"/>
+							<column progid="DecalControls.CheckColumn"/>
+							<column progid="DecalControls.CheckColumn"/>
+						</control>
+						<control progid="DecalControls.StaticText" name="Label6" left="4" top="202" width="200" height="16" justify="Center" fontface="Times New Roman" fontsize="14" fontstyle=" italic" text="Use the mouse wheel to zoom"/>
+						<control progid="DecalControls.PushButton" name="btnDerethMapMouseHelp" left="88" top="116" width="12" height="12" textcolor="16777215" text="?"/>
+						<control progid="DecalControls.StaticText" name="Label57" left="4" top="96" width="56" height="16" text="Center on:"/>
+						<control progid="DecalControls.Edit" name="edtDerethMapCenterOn" left="64" top="96" width="104" height="16" imageportalsrc="4410" textcolor="16777215" text="0.0N, 0.0E"/>
+						<control progid="DecalControls.PushButton" name="btnDerethMapCenterGo" left="176" top="96" width="32" height="16" textcolor="16777215" text="Go"/>
+					</control>
+
+				</control>
+
+			</page>
+			<page label="Dungeon">
+				<control progid="DecalControls.FixedLayout" clipped="">
+					<control progid="DecalControls.FixedLayout" clipped="" left="0" top="0" width="216" height="240">
+						<control progid="DecalControls.Checkbox" name="chkDungeonMapShow" left="4" top="8" width="144" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Show Dungeon Map"/>
+						<control progid="DecalControls.Checkbox" name="chkDungeonMapAutoLoad" left="4" top="64" width="212" height="16" checked="true" text="Load maps of dungeons you enter"/>
+						<control progid="DecalControls.StaticText" name="Label59" left="4" top="28" width="72" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" italic" text="Select a map"/>
+						<control progid="DecalControls.Checkbox" name="chkDungeonMapAutoRotate" left="84" top="104" width="132" height="16" text="Auto-rotate map"/>
+						<control progid="DecalControls.Choice" name="choDungeonMap" left="4" top="44" width="200" height="19" droplines="12" selected="0">
+							<option text="None" data="0"/>
+						</control>
+						<control progid="DecalControls.StaticText" name="Label50" left="2" top="80" width="80" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" italic" text="Map orientation"/>
+						<control progid="DecalControls.PushButton" name="btnDungeonMapThisDungeon" left="136" top="26" width="72" height="16" textcolor="16777215" text="This Dungeon"/>
+						<control progid="DecalControls.FixedLayout" clipped="" left="24" top="96" width="48" height="32">
+							<control progid="DecalControls.PushButton" name="btnDungeonMapN" left="16" top="0" width="14" height="14" textcolor="16777215" text="N"/>
+							<control progid="DecalControls.PushButton" name="btnDungeonMapW" left="0" top="8" width="14" height="14" textcolor="16777215" text="W"/>
+							<control progid="DecalControls.PushButton" name="btnDungeonMapE" left="32" top="8" width="14" height="14" textcolor="16777215" text="E"/>
+							<control progid="DecalControls.PushButton" name="btnDungeonMapS" left="16" top="16" width="14" height="14" textcolor="16777215" text="S"/>
+						</control>
+
+						<control progid="DecalControls.PushButton" name="btnDungeonMapClearCache" left="4" top="208" width="96" height="16" textcolor="16777215" text="Clear Map Cache"/>
+						<control progid="DecalControls.Checkbox" name="chkDungeonMapCompass" left="84" top="88" width="132" height="16" checked="true" text="Show Compass"/>
+						<control progid="DecalControls.PushButton" name="btnDungeonMapCancelDL" left="112" top="208" width="96" height="16" textcolor="16777215" text="Cancel Download"/>
+						<control progid="DecalControls.Checkbox" name="chkDungeonMapMoveWithPlayer" left="84" top="120" width="132" height="16" text="Move map with player"/>
+						<control progid="DecalControls.StaticText" name="Label512" left="4" top="140" width="88" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Mouse Buttons"/>
+						<control progid="DecalControls.StaticText" name="Label531" left="100" top="140" width="20" height="16" justify="Center" text="L"/>
+						<control progid="DecalControls.StaticText" name="Label5321" left="120" top="140" width="20" height="16" justify="Center" text="M"/>
+						<control progid="DecalControls.StaticText" name="Label581" left="140" top="140" width="20" height="16" justify="Center" text="R"/>
+						<control progid="DecalControls.StaticText" name="Label631" left="160" top="140" width="20" height="16" justify="Center" text="X1"/>
+						<control progid="DecalControls.StaticText" name="Label641" left="180" top="140" width="20" height="16" justify="Center" text="X2"/>
+						<control progid="DecalControls.List" name="lstDungeonMapMouse" left="0" top="154" width="216" height="33">
+							<column progid="DecalControls.TextColumn"/>
+							<column progid="DecalControls.CheckColumn"/>
+							<column progid="DecalControls.CheckColumn"/>
+							<column progid="DecalControls.CheckColumn"/>
+							<column progid="DecalControls.CheckColumn"/>
+							<column progid="DecalControls.CheckColumn"/>
+						</control>
+						<control progid="DecalControls.StaticText" name="Label69" left="4" top="192" width="200" height="16" justify="Center" fontface="Times New Roman" fontsize="14" fontstyle=" italic" text="Use the mouse wheel to zoom"/>
+						<control progid="DecalControls.PushButton" name="btnDungeonMapMouseHelp" left="88" top="140" width="12" height="12" textcolor="16777215" text="?"/>
+					</control>
+
+				</control>
+
+			</page>
+			<page label="General">
+				<control progid="DecalControls.FixedLayout" clipped="">
+					<control progid="DecalControls.FixedLayout" clipped="" left="0" top="0" width="216" height="216">
+						<control progid="DecalControls.Checkbox" name="chkAllowBothMaps" left="4" top="136" width="200" height="16" checked="true" text="Both maps can be visible at once"/>
+						<control progid="DecalControls.Checkbox" name="chkHudsToolbarShow" left="4" top="8" width="212" height="16" checked="true" text="Show HUDs toolbar"/>
+						<control progid="DecalControls.StaticText" name="Label62" left="24" top="24" width="48" height="16" text="Display:"/>
+						<control progid="DecalControls.Checkbox" name="chkHudToolbarIcons" left="88" top="24" width="56" height="16" checked="true" text="Icons"/>
+						<control progid="DecalControls.Checkbox" name="chkHudToolbarText" left="160" top="24" width="56" height="16" checked="true" text="Text"/>
+						<control progid="DecalControls.StaticText" name="Label65" left="4" top="168" width="88" height="16" text="Inactive Opacity:"/>
+						<control progid="DecalControls.StaticText" name="Label66" left="4" top="152" width="88" height="16" text="Active Opacity:"/>
+						<control progid="DecalControls.Slider" name="sldHudOpacityActive" left="96" top="152" width="112" height="16" minimum="0" maximum="255" textcolor="0" vertical="0"/>
+						<control progid="DecalControls.Slider" name="sldHudOpacityInactive" left="96" top="168" width="112" height="16" minimum="0" maximum="255" textcolor="0" vertical="0"/>
+						<control progid="DecalControls.StaticText" name="Label67" left="24" top="40" width="64" height="16" text="Orientation:"/>
+						<control progid="DecalControls.Checkbox" name="chkHudToolbarHoriz" left="88" top="40" width="72" height="16" checked="true" text="Horizontal"/>
+						<control progid="DecalControls.Checkbox" name="chkHudToolbarVert" left="160" top="40" width="56" height="16" text="Vertical"/>
+						<control progid="DecalControls.PushButton" name="btnResetHudPositions" left="40" top="192" width="136" height="16" textcolor="16777215" text="Reset All HUD Positions"/>
+						<control progid="DecalControls.List" name="lstToolbarButtons" left="88" top="56" width="128" height="72" rowheight="16">
+							<column progid="DecalControls.CheckColumn"/>
+							<column progid="DecalControls.TextColumn"/>
+						</control>
+						<control progid="DecalControls.StaticText" name="Label10" left="24" top="80" width="56" height="16" text="Buttons:"/>
+					</control>
+
+				</control>
+
+			</page>
+			</control>
+
+		</page>
+		<page label="Atlas">
+			<control progid="DecalControls.Notebook" name="nbkAtlas">
+			<page label="Search">
+				<control progid="DecalControls.FixedLayout" clipped="">
+					<control progid="DecalControls.Edit" name="edtSearchName" left="60" top="8" width="132" height="16" imageportalsrc="4410" textcolor="16777215" text=""/>
+					<control progid="DecalControls.Choice" name="choSearchIn" left="200" top="8" width="64" height="19" droplines="3" selected="0">
+						<option text="Name" data=""/>
+						<option text="Descr" data=""/>
+						<option text="Both" data=""/>
+					</control>
+					<control progid="DecalControls.Choice" name="choSearchLimit" left="60" top="48" width="132" height="19" droplines="12"/>
+					<control progid="DecalControls.PushButton" name="btnSearchGo" left="200" top="48" width="64" height="16" textcolor="16777215" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Search"/>
+					<control progid="DecalControls.List" name="lstSearchResults" left="0" top="72" width="272" height="182">
+						<column progid="DecalControls.IconColumn" name="Icon"/>
+            <column progid="DecalControls.TextColumn" name="Name" fixedwidth="118"/>
+            <column progid="DecalControls.TextColumn" name="Coords" fixedwidth="74"/>
+						<column progid="DecalControls.IconColumn" name="GoIcon"/>
+						<column progid="DecalControls.TextColumn" name="ID" fixedwidth="1"/>
+					</control>
+					<control progid="DecalControls.Checkbox" name="chkSearchShowRelative" left="4" top="258" width="136" height="16" text="Relative Coordinates"/>
+					<control progid="DecalControls.Checkbox" name="chkSearchName" left="4" top="8" width="48" height="16" checked="true" text="Text"/>
+					<control progid="DecalControls.Checkbox" name="chkSearchNearby" left="4" top="28" width="52" height="16" text="Nearby"/>
+					<control progid="DecalControls.Edit" name="edtSearchRadius" left="60" top="28" width="30" height="16" imageportalsrc="4410" textcolor="16777215" text="5"/>
+					<control progid="DecalControls.Edit" name="edtSearchCoords" left="116" top="28" width="108" height="16" imageportalsrc="4410" textcolor="16777215" text="Enter Coords"/>
+					<control progid="DecalControls.PushButton" name="btnSearchHere" left="232" top="28" width="32" height="16" textcolor="16777215" text="Here"/>
+					<control progid="DecalControls.StaticText" name="Label111" left="94" top="28" width="56" height="16" text="km"/>
+					<control progid="DecalControls.StaticText" name="Label42" left="16" top="50" width="40" height="16" text="Limit to"/>
+					<control progid="DecalControls.StaticText" name="lblSearchMatchesFound" left="152" top="258" width="50" height="16" justify="Right" text="0 - "/>
+					<control progid="DecalControls.StaticText" name="Label43" left="192" top="258" width="80" height="16" justify="Right" text="matches found"/>
+				</control>
+
+			</page>
+			<page label="Route">
+				<control progid="DecalControls.FixedLayout" clipped="">
+					<control progid="DecalControls.StaticText" name="Label14" left="4" top="9" width="32" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="From"/>
+					<control progid="DecalControls.StaticText" name="Label141" left="4" top="57" width="32" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="To"/>
+					<control progid="DecalControls.Choice" name="choRouteFromLtr" left="40" top="8" width="48" height="19" droplines="12" selected="0">
+						<option text="#" data="#"/>
+						<option text="A" data="A"/>
+						<option text="B" data="B"/>
+						<option text="C" data="C"/>
+						<option text="D" data="D"/>
+						<option text="E" data="E"/>
+						<option text="F" data="F"/>
+						<option text="G" data="G"/>
+						<option text="H" data="H"/>
+						<option text="I" data="I"/>
+						<option text="J" data="J"/>
+						<option text="K" data="K"/>
+						<option text="L" data="L"/>
+						<option text="M" data="M"/>
+						<option text="N" data="N"/>
+						<option text="O" data="O"/>
+						<option text="P" data="P"/>
+						<option text="Q" data="Q"/>
+						<option text="R" data="R"/>
+						<option text="S" data="S"/>
+						<option text="T" data="T"/>
+						<option text="U" data="U"/>
+						<option text="V" data="V"/>
+						<option text="W" data="W"/>
+						<option text="X" data="X"/>
+						<option text="Y" data="Y"/>
+						<option text="Z" data="Z"/>
+					</control>
+					<control progid="DecalControls.Choice" name="choRouteFrom" left="96" top="8" width="168" height="19" droplines="12"/>
+					<control progid="DecalControls.Edit" name="edtRouteFromCoords" left="96" top="32" width="120" height="16" imageportalsrc="4410" textcolor="16777215" text=""/>
+					<control progid="DecalControls.StaticText" name="Label15" left="56" top="32" width="40" height="16" text="Coords"/>
+					<control progid="DecalControls.Choice" name="choRouteToLtr" left="40" top="56" width="48" height="19" droplines="12" selected="0">
+						<option text="#" data="#"/>
+						<option text="A" data="A"/>
+						<option text="B" data="B"/>
+						<option text="C" data="C"/>
+						<option text="D" data="D"/>
+						<option text="E" data="E"/>
+						<option text="F" data="F"/>
+						<option text="G" data="G"/>
+						<option text="H" data="H"/>
+						<option text="I" data="I"/>
+						<option text="J" data="J"/>
+						<option text="K" data="K"/>
+						<option text="L" data="L"/>
+						<option text="M" data="M"/>
+						<option text="N" data="N"/>
+						<option text="O" data="O"/>
+						<option text="P" data="P"/>
+						<option text="Q" data="Q"/>
+						<option text="R" data="R"/>
+						<option text="S" data="S"/>
+						<option text="T" data="T"/>
+						<option text="U" data="U"/>
+						<option text="V" data="V"/>
+						<option text="W" data="W"/>
+						<option text="X" data="X"/>
+						<option text="Y" data="Y"/>
+						<option text="Z" data="Z"/>
+					</control>
+					<control progid="DecalControls.Choice" name="choRouteTo" left="96" top="56" width="168" height="19" droplines="12"/>
+					<control progid="DecalControls.StaticText" name="Label151" left="56" top="80" width="40" height="16" text="Coords"/>
+					<control progid="DecalControls.Edit" name="edtRouteToCoords" left="96" top="80" width="120" height="16" imageportalsrc="4410" textcolor="16777215" text=""/>
+					<control progid="DecalControls.PushButton" name="btnRouteGenerate" left="80" top="104" width="112" height="16" textcolor="16777215" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Find Route"/>
+					<control progid="DecalControls.PushButton" name="btnRouteCopy" left="4" top="104" width="64" height="16" textcolor="16777215" text="Copy"/>
+					<control progid="DecalControls.List" name="lstRoute" left="0" top="126" width="272" height="128">
+						<column progid="DecalControls.IconColumn" name="Icon"/>
+						<column progid="DecalControls.TextColumn" name="Name"/>
+						<column progid="DecalControls.TextColumn" name="Coords" fixedwidth="74"/>
+						<column progid="DecalControls.IconColumn" name="GoIcon"/>
+						<column progid="DecalControls.TextColumn" name="ID" fixedwidth="1"/>
+					</control>
+					<control progid="DecalControls.Checkbox" name="chkRouteShowRelative" left="4" top="258" width="136" height="16" text="Relative Coordinates"/>
+					<control progid="DecalControls.StaticText" name="lblRouteDistance" left="216" top="258" width="52" height="16" justify="Right" text="0 km"/>
+					<control progid="DecalControls.PushButton" name="btnRouteNext" left="200" top="104" width="64" height="16" textcolor="16777215" text="Next longer"/>
+					<control progid="DecalControls.Checkbox" name="chkRouteFromHere" left="224" top="32" width="48" height="16" checked="true" text="Here"/>
+					<control progid="DecalControls.Checkbox" name="chkRouteToHere" left="224" top="80" width="56" height="16" text="Here"/>
+				</control>
+
+			</page>
+			<page label="Details">
+				<control progid="DecalControls.FixedLayout" clipped="">
+					<control progid="DecalControls.Button" name="icoDetailsIcon" left="232" top="8" width="32" height="32"/>
+					<control progid="DecalControls.StaticText" name="lblDetailsName" left="4" top="8" width="256" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Location Name"/>
+					<control progid="DecalControls.StaticText" name="Label12" left="4" top="40" width="80" height="16" text="Absolute Coords:"/>
+					<control progid="DecalControls.StaticText" name="Label13" left="4" top="56" width="80" height="16" text="Relative Coords:"/>
+					<control progid="DecalControls.StaticText" name="lblDetailsAbsCoords" left="88" top="40" width="80" height="16" text="0.0N, 0.0E"/>
+					<control progid="DecalControls.StaticText" name="lblDetailsRelCoords" left="88" top="56" width="80" height="16" text="0.0N, 0.0E"/>
+					<control progid="DecalControls.PushButton" name="btnDetailsCopyCoords" left="168" top="48" width="40" height="16" textcolor="16777215" text="Copy"/>
+					<control progid="DecalControls.StaticText" name="lblDetailsType" left="4" top="24" width="224" height="16" text="Location Type"/>
+					<control progid="DecalControls.PushButton" name="btnDetailsRouteStart" left="4" top="72" width="82" height="16" textcolor="16777215" text="Route Start"/>
+					<control progid="DecalControls.PushButton" name="btnDetailsRouteEnd" left="4" top="92" width="82" height="16" textcolor="16777215" text="Route End"/>
+					<control progid="DecalControls.PushButton" name="btnDetailsAddFav" left="95" top="92" width="82" height="16" textcolor="16777215" text="Add Favorite"/>
+					<control progid="DecalControls.PushButton" name="btnDetailsArrowTarget" left="95" top="72" width="82" height="16" textcolor="16777215" text="Arrow Target"/>
+					<control progid="DecalControls.PushButton" name="btnDetailsShrink" left="212" top="48" width="52" height="16" textcolor="16777215" text="Minimize"/>
+					<control progid="DecalControls.Notebook" name="nbkDetails" left="0" top="112" width="272" height="158">
+            <page label="Description">
+              <control progid="DecalControls.List" name="lstLocationDescription"  rowheight="9">
+                <column progid="DecalControls.TextColumn" fixedwidth="250"/>
+              </control>
+            </page>
+            <page label="Modify/Add Location">
+						<control progid="DecalControls.FixedLayout" clipped="">
+							<control progid="DecalControls.Edit" name="edtModifyName" left="48" top="4" width="216" height="16" imageportalsrc="4410" textcolor="16777215" text="Location Name"/>
+							<control progid="DecalControls.StaticText" name="Label32" left="4" top="4" width="40" height="16" text="Name"/>
+							<control progid="DecalControls.StaticText" name="Label33" left="4" top="66" width="40" height="16" text="Type"/>
+							<control progid="DecalControls.Choice" name="choModifyType" left="48" top="64" width="152" height="19"/>
+							<control progid="DecalControls.StaticText" name="Label34" left="4" top="24" width="40" height="16" text="Coords"/>
+							<control progid="DecalControls.Edit" name="edtModifyCoords" left="48" top="24" width="104" height="16" imageportalsrc="4410" textcolor="16777215" text="0.0N, 0.0E"/>
+							<control progid="DecalControls.PushButton" name="btnModifyCoordsHere" left="160" top="24" width="40" height="16" textcolor="16777215" text="Here"/>
+							<control progid="DecalControls.StaticText" name="Label35" left="4" top="44" width="40" height="16" text="Exit"/>
+							<control progid="DecalControls.Edit" name="edtModifyExitCoords" left="48" top="44" width="104" height="16" imageportalsrc="4410" textcolor="16777215" text="0.0N, 0.0E"/>
+							<control progid="DecalControls.PushButton" name="btnModifyExitCoordsHere" left="160" top="44" width="40" height="16" textcolor="16777215" text="Here"/>
+							<control progid="DecalControls.PushButton" name="btnModifyExitCoordsNone" left="208" top="44" width="40" height="16" textcolor="16777215" text="None"/>
+							<control progid="DecalControls.Checkbox" name="chkModifyUseInRoute" left="48" top="86" width="128" height="16" text="Use in route finding"/>
+							<control progid="DecalControls.StaticText" name="Label36" left="4" top="104" width="32" height="16" text="Descr"/>
+							<control progid="DecalControls.Edit" name="edtModifyDescription" left="48" top="104" width="216" height="16" imageportalsrc="4410" textcolor="16777215" text=""/>
+							<control progid="DecalControls.PushButton" name="btnModifySave" left="16" top="124" width="88" height="16" textcolor="16777215" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Modify"/>
+							<control progid="DecalControls.PushButton" name="btnModifyReset" left="200" top="124" width="56" height="16" textcolor="16777215" text="Reset"/>
+							<control progid="DecalControls.PushButton" name="btnModifySaveNew" left="112" top="124" width="80" height="16" textcolor="16777215" text="Save As New"/>
+						</control>
+
+					</page>
+					<page label="Delete...">
+						<control progid="DecalControls.FixedLayout" clipped="">
+							<control progid="DecalControls.StaticText" name="Label37" left="4" top="4" width="256" height="84" justify="left" text="This will remove the location from the database on your computer.  If this location exists in the online database, it will be added back the next time you update.  As such, it is only really useful to delete locations that you have added yourself."/>
+							<control progid="DecalControls.PushButton" name="btnDeleteLocation" left="104" top="130" width="64" height="16" textcolor="128" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Delete"/>
+							<control progid="DecalControls.StaticText" name="Label38" left="4" top="100" width="272" height="16" justify="left" text="You must hold down the Ctrl key while clicking Delete"/>
+						</control>
+
+					</page>
+					</control>
+
+					<control progid="DecalControls.PushButton" name="btnDetailsLocateOnMap" left="182" top="72" width="82" height="16" textcolor="16777215" text="Locate on Map"/>
+					<control progid="DecalControls.PushButton" name="btnDetailsDungeonMap" left="182" top="92" width="82" height="16" textcolor="16777215" text="Dungeon Map"/>
+				</control>
+
+			</page>
+			<page label="Favorites">
+				<control progid="DecalControls.FixedLayout" clipped="">
+					<control progid="DecalControls.List" name="lstFavorites" left="0" top="15" width="272" height="239">
+						<column progid="DecalControls.IconColumn" name="Icon"/>
+						<column progid="DecalControls.TextColumn" name="Name"/>
+						<column progid="DecalControls.TextColumn" name="Coords" fixedwidth="74"/>
+						<column progid="DecalControls.IconColumn" name="GoIcon"/>
+						<column progid="DecalControls.TextColumn" name="ID" fixedwidth="1"/>
+					</control>
+					<control progid="DecalControls.StaticText" name="Label9" left="124" top="258" width="144" height="16" justify="Right" fontface="Times New Roman" fontsize="14" fontstyle=" italic" textcolor="128" text="Ctrl+Click icon to remove"/>
+					<control progid="DecalControls.Checkbox" name="chkFavoritesShowRelative" left="4" top="258" width="136" height="16" fontsize="14" text="Relative Coordinates"/>
+					<control progid="DecalControls.StaticText" name="Label45" left="4" top="2" width="256" height="16" justify="Center" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Favorite Locations"/>
+				</control>
+
+			</page>
+			<page label="Recent">
+				<control progid="DecalControls.FixedLayout" clipped="">
+					<control progid="DecalControls.Checkbox" name="chkRecentShowRelative" left="4" top="258" width="136" height="16" fontsize="14" text="Relative Coordinates"/>
+					<control progid="DecalControls.List" name="lstRecent" left="0" top="15" width="272" height="121">
+						<column progid="DecalControls.IconColumn" name="Icon"/>
+						<column progid="DecalControls.TextColumn" name="Name"/>
+						<column progid="DecalControls.TextColumn" name="Coords" fixedwidth="74"/>
+						<column progid="DecalControls.IconColumn" name="GoIcon"/>
+						<column progid="DecalControls.TextColumn" name="ID" fixedwidth="1"/>
+					</control>
+					<control progid="DecalControls.StaticText" name="Label24" left="4" top="2" width="256" height="16" justify="Center" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Recent Locations"/>
+					<control progid="DecalControls.StaticText" name="Label25" left="4" top="138" width="256" height="16" justify="Center" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Recent Arrow Coordinates"/>
+					<control progid="DecalControls.List" name="lstRecentCoords" left="0" top="151" width="272" height="103">
+						<column progid="DecalControls.IconColumn" name="Icon"/>
+						<column progid="DecalControls.TextColumn" name="Name"/>
+						<column progid="DecalControls.TextColumn" name="Coords" fixedwidth="74"/>
+					</control>
+					<control progid="DecalControls.StaticText" name="Label91" left="124" top="258" width="144" height="16" justify="Right" fontface="Times New Roman" fontsize="14" fontstyle=" italic" textcolor="128" text="Click icon to remove"/>
+				</control>
+
+			</page>
+			<page label="Update">
+				<control progid="DecalControls.FixedLayout" clipped="">
+					<control progid="DecalControls.Edit" name="edtLocationsUrl" left="40" top="32" width="224" height="16" imageportalsrc="4410" textcolor="8454016" text="http://maps.roogon.com/downloads/GAlocations.xml"/>
+					<control progid="DecalControls.StaticText" name="Label17" left="4" top="32" width="24" height="16" text="URL"/>
+					<control progid="DecalControls.Progress" name="prgLocationsProgress" left="4" top="224" width="256" height="20" value="0" maxvalue="100" facecolor="14737632" fillcolor="16711680" textcolor="0" bordercolor="0" border="2" align="Center" pretext="" posttext="" drawtext="0"/>
+					<control progid="DecalControls.PushButton" name="btnLocationsUpdate" left="56" top="192" width="160" height="24" textcolor="16777215" text="Update Locations Database"/>
+					<control progid="DecalControls.StaticText" name="txtDownloadStatusA" left="4" top="248" width="256" height="24" text="Idle"/>
+					<control progid="DecalControls.StaticText" name="txtDownloadStatusB" left="128" top="248" width="136" height="16" justify="Right" text=""/>
+					<control progid="DecalControls.Checkbox" name="chkUpdateOverwrite" left="4" top="116" width="248" height="16" text="Overwrite all custom and modified locations"/>
+					<control progid="DecalControls.StaticText" name="Label16" left="4" top="56" width="72" height="16" text="Database Type"/>
+					<control progid="DecalControls.Choice" name="choUpdateDatabaseType" left="88" top="56" width="176" height="19" selected="0">
+						<option text="Crossroads of Dereth" data=""/>
+						<option text="ACSpedia" data=""/>
+					</control>
+					<control progid="DecalControls.StaticText" name="Label41" left="0" top="80" width="272" height="32" textcolor="128" justify="left" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Warning! Changing the database type will delete all favorite, custom, and modified locations!"/>
+					<control progid="DecalControls.StaticText" name="Label18" left="4" top="8" width="256" height="16" justify="Center" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Update the Locations Database"/>
+					<control progid="DecalControls.StaticText" name="Label49" left="4" top="152" width="192" height="16" text="Current number of locations in database: "/>
+					<control progid="DecalControls.StaticText" name="lblUpdateNumLocations" left="200" top="152" width="56" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="0"/>
+					<control progid="DecalControls.StaticText" name="Label56" left="4" top="168" width="72" height="16" text="Last updated:"/>
+					<control progid="DecalControls.StaticText" name="lblUpdateLastUpdate" left="72" top="168" width="192" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Unknown"/>
+					<control progid="DecalControls.Checkbox" name="chkUpdateRemind" left="4" top="132" width="256" height="16" checked="true" text="Remind me to update once a month"/>
+				</control>
+
+			</page>
+			</control>
+
+		</page>
+		<page label="Settings">
+			<control progid="DecalControls.Notebook" name="nbkSettings">
+			<page label="Chat">
+				<control progid="DecalControls.FixedLayout" clipped="">
+					<control progid="DecalControls.StaticText" name="Label8" left="4" top="88" width="80" height="16" text="Chat command: /"/>
+					<control progid="DecalControls.Edit" name="edtChatCommand" left="88" top="88" width="56" height="16" imageportalsrc="4410" textcolor="16777215" text="goarrow"/>
+					<control progid="DecalControls.StaticText" name="lblHelpInfo" left="16" top="104" width="248" height="32" justify="Center" fontface="Times New Roman" fontsize="14" fontstyle=" italic" text="Type '/goarrow help' to see chat commands"/>
+					<control progid="DecalControls.StaticText" name="Label39" left="4" top="32" width="144" height="16" text="Display GoArrow messages in:"/>
+					<control progid="DecalControls.Checkbox" name="chkAlwaysShowErrors" left="16" top="64" width="220" height="16" checked="true" text="Always show errors in Main Chat"/>
+					<control progid="DecalControls.Checkbox" name="chkEnableCoordsCommand" left="4" top="136" width="248" height="16" text="Enable '/goarrow loc' command alias"/>
+					<control progid="DecalControls.PushButton" name="btnCoordsCommandHelp" left="144" top="154" width="12" height="12" textcolor="16777215" text="?"/>
+					<control progid="DecalControls.StaticText" name="Label40" left="24" top="152" width="64" height="16" text="Command: /"/>
+					<control progid="DecalControls.Edit" name="edtCoordsCommand" left="80" top="152" width="56" height="16" imageportalsrc="4410" textcolor="16777215" text="loc"/>
+					<control progid="DecalControls.Checkbox" name="chkLinkCoords" left="4" top="8" width="210" height="16" checked="true" text="Make coords in chat area clickable"/>
+					<control progid="DecalControls.PushButton" name="btnLinkCoordsHelp" left="220" top="10" width="12" height="12" textcolor="16777215" text="?"/>
+					<control progid="DecalControls.Checkbox" name="chkEnableDestCommand" left="4" top="184" width="248" height="16" text="Enable '/goarrow dest' command alias"/>
+					<control progid="DecalControls.StaticText" name="Label11" left="24" top="200" width="64" height="16" text="Command: /"/>
+					<control progid="DecalControls.Edit" name="edtDestCommand" left="80" top="200" width="56" height="16" imageportalsrc="4410" textcolor="16777215" text="dest"/>
+					<control progid="DecalControls.PushButton" name="btnDestCommandHelp" left="144" top="202" width="12" height="12" textcolor="16777215" text="?"/>
+					<control progid="DecalControls.StaticText" name="Label112" left="24" top="248" width="64" height="16" text="Command: /"/>
+					<control progid="DecalControls.Edit" name="edtFindCommand" left="80" top="248" width="56" height="16" imageportalsrc="4410" textcolor="16777215" text="find"/>
+					<control progid="DecalControls.Checkbox" name="chkEnableFindCommand" left="4" top="232" width="248" height="16" text="Enable '/goarrow find' command alias"/>
+					<control progid="DecalControls.Checkbox" name="chkOutputMainChat" left="16" top="48" width="72" height="16" checked="true" text="Main Chat"/>
+					<control progid="DecalControls.Checkbox" name="chkOutput1" left="96" top="48" width="32" height="16" text="1"/>
+					<control progid="DecalControls.Checkbox" name="chkOutput2" left="128" top="48" width="32" height="16" text="2"/>
+					<control progid="DecalControls.Checkbox" name="chkOutput3" left="160" top="48" width="32" height="16" text="3"/>
+					<control progid="DecalControls.Checkbox" name="chkOutput4" left="192" top="48" width="32" height="16" text="4"/>
+				</control>
+
+			</page>
+			<page label="Route Finding">
+				<control progid="DecalControls.FixedLayout" clipped="">
+					<control progid="DecalControls.StaticText" name="Label23" left="4" top="4" width="208" height="16" text="Maximum running distance between portals"/>
+					<control progid="DecalControls.Edit" name="edtMaxRunDist" left="216" top="4" width="30" height="16" imageportalsrc="4410" textcolor="16777215" text="50"/>
+					<control progid="DecalControls.StaticText" name="Label29" left="248" top="4" width="24" height="16" text="km"/>
+					<control progid="DecalControls.StaticText" name="Label30" left="4" top="22" width="200" height="16" text="Treat using a portal equivalent to running"/>
+					<control progid="DecalControls.Edit" name="edtPortalRunDist" left="216" top="22" width="30" height="16" imageportalsrc="4410" textcolor="16777215" text="0.4"/>
+					<control progid="DecalControls.StaticText" name="Label291" left="248" top="22" width="24" height="16" text="km"/>
+					<control progid="DecalControls.Notebook" name="nbkRouteSettings" left="0" top="40" width="272" height="234">
+					<page label="Start Locations">
+						<control progid="DecalControls.FixedLayout" clipped="">
+							<control progid="DecalControls.List" name="lstStartLocations" left="0" top="0" width="272" height="121">
+								<column progid="DecalControls.CheckColumn"/>
+								<column progid="DecalControls.IconColumn"/>
+								<column progid="DecalControls.TextColumn"/>
+								<column progid="DecalControls.TextColumn" fixedwidth="74"/>
+								<column progid="DecalControls.IconColumn"/>
+							</control>
+							<control progid="DecalControls.FixedLayout" clipped="" left="4" top="120" width="264" height="56">
+								<control progid="DecalControls.Edit" name="edtStartLocationCoords" left="40" top="36" width="80" height="16" imageportalsrc="4410" textcolor="16777215" text=""/>
+								<control progid="DecalControls.Edit" name="edtStartLocationName" left="40" top="16" width="120" height="16" imageportalsrc="4410" textcolor="16777215" text=""/>
+								<control progid="DecalControls.StaticText" name="Label27" left="6" top="16" width="40" height="16" text="Name"/>
+								<control progid="DecalControls.PushButton" name="btnStartLocationHere" left="128" top="36" width="32" height="16" textcolor="16777215" text="Here"/>
+								<control progid="DecalControls.StaticText" name="Label26" left="0" top="0" width="160" height="16" text="Add or modify a start location"/>
+								<control progid="DecalControls.StaticText" name="Label28" left="6" top="36" width="32" height="16" text="Coords"/>
+								<control progid="DecalControls.PushButton" name="btnStartLocationAdd" left="176" top="36" width="80" height="16" textcolor="16777215" text="Add"/>
+								<control progid="DecalControls.Edit" name="edtStartLocationRunDist" left="208" top="16" width="30" height="16" imageportalsrc="4410" textcolor="16777215" text=""/>
+								<control progid="DecalControls.StaticText" name="Label31" left="168" top="16" width="40" height="16" text="Run dist"/>
+								<control progid="DecalControls.PushButton" name="btnStartLocationRunDistHelp" left="242" top="18" width="12" height="12" textcolor="16777215" text="?"/>
+							</control>
+
+							<control progid="DecalControls.Checkbox" name="chkAutoUpdateRecalls" left="4" top="176" width="256" height="16" checked="true" text="Automatically update recall coordinates"/>
+							<control progid="DecalControls.StaticText" name="Label46" left="16" top="192" width="256" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" italic" text="Applies to lifestone, bindstone, house, and portal ties"/>
+						</control>
+
+					</page>
+					<page label="Portal Devices">
+						<control progid="DecalControls.FixedLayout" clipped="">
+							<control progid="DecalControls.List" name="lstPortalDevices" left="0" top="0" width="292" height="201">
+								<column progid="DecalControls.CheckColumn"/>
+								<column progid="DecalControls.IconColumn"/>
+								<column progid="DecalControls.TextColumn" fixedwidth="156"/>
+								<column progid="DecalControls.TextColumn"/>
+							</control>
+							<control progid="DecalControls.Checkbox" name="chkAutoDetectPortalDevices" left="4" top="202" width="248" height="16" checked="true" text="Automatically detect portal devices at mansion"/>
+						</control>
+
+					</page>
+					</control>
+
+				</control>
+
+			</page>
+			<page label="About">
+				<control progid="DecalControls.FixedLayout" clipped="">
+          <control progid="DecalControls.StaticText" name="txtAboutNameVer" left="8" top="8" width="256" height="16" justify="Center" fontface="Times New Roman" fontsize="14" fontstyle="bold" text="GoArrow" />
+          <control progid="DecalControls.StaticText" name="Label19" left="8" top="24" width="256" height="16" justify="Center" text="VVS edition by Virindi" />
+          <control progid="DecalControls.StaticText" name="Label20" left="8" top="36" width="256" height="16" justify="Center" text="Updated by Kimseth (HG)" />
+          <control progid="DecalControls.StaticText" name="Label22" left="48" top="82" width="176" height="16" justify="Center" text="Darktorizo and Roogon" />
+          <control progid="DecalControls.StaticText" name="lblHelpInfo2" left="8" top="240" width="256" height="32" justify="Center" fontface="Times New Roman" fontsize="14" fontstyle="italic" text="Type '/goarrow help' to see chat commands" />
+          <control progid="DecalControls.StaticText" name="Label44" left="8" top="92" width="256" height="16" textcolor="16711680" justify="Center" text="http://maps.roogon.com" />
+          <control progid="DecalControls.StaticText" name="Label60" left="56" top="136" width="160" height="16" justify="Center" text="Greeneye's ACMaps" />
+          <control progid="DecalControls.StaticText" name="Label611" left="16" top="146" width="240" height="16" textcolor="16711680" justify="Center" text="http://www.acmaps.com" />
+          <control progid="DecalControls.StaticText" name="Label601" left="56" top="160" width="160" height="16" justify="Center" text="and" />
+          <control progid="DecalControls.StaticText" name="Label601" left="56" top="177" width="160" height="16" justify="Center" text="AC Wikkii" />
+          <control progid="DecalControls.StaticText" name="Label612" left="16" top="187" width="240" height="16" textcolor="16711680" justify="Center" text="http://ac.wikkii.net" />
+          <control progid="DecalControls.StaticText" name="Label7" left="40" top="66" width="192" height="16" justify="Center" fontface="Times New Roman" fontsize="14" fontstyle="bold" text="Locations database provided by" />
+          <control progid="DecalControls.StaticText" name="Label54" left="64" top="120" width="144" height="16" justify="Center" fontface="Times New Roman" fontsize="14" fontstyle="bold" text="Dungeon maps provided by" />
+        </control>
+
+			</page>
+			</control>
+
+		</page>
+		</control>
+
+		<control progid="DecalControls.StaticText" name="Label5311" justify="Center" text="L"/>
+</view>
