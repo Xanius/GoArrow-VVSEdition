@@ -120,7 +120,7 @@ namespace GoArrow
 				mSettingsLoaded = false;
 				mLoggedIn = false;
 				mLoginCompleted = false;
-                LoadSettings();
+
 				FileInfo locationsFile = new FileInfo(Util.FullPath("locations.xml"));
 				if (locationsFile.Exists)
 				{

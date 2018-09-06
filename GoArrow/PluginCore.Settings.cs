@@ -40,9 +40,10 @@ namespace GoArrow
 	{
 		private const int SettingsVersion = 2;
 		private int mLoadedSettingsVersion = SettingsVersion;
-       
+
 		/// <summary>Set to FALSE until the LoadSettings() function is complete</summary>
 		private bool mSettingsLoaded = false;
+
 		private DateTime mSettingsLoadTime = DateTime.MinValue;
 
 		private void LoadSettings()
@@ -323,15 +324,7 @@ namespace GoArrow
 								SetWindowAlpha(mDungeonHud, false, intVal);
 							}
 							break;
-                        //
-                        //Dungeon Map URLs
-                        //
-                        case "DungeonMapUrl":
-                            mDungeonHud.MapBaseUrl= val;
-                            break;
-                        case "DungeonListUrl":
-                            mDungeonHud.DungeonListUrl = val;
-                            break;
+
 						//
 						// Atlas > Update Tab
 						//
@@ -341,7 +334,7 @@ namespace GoArrow
 						case "chkUpdateRemind":
 							if (bool.TryParse(val, out boolVal)) { chkUpdateRemind.Checked = boolVal; }
 							break;
-                        
+
 						//
 						// Settings > Chat Tab
 						//
